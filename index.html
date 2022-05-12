@@ -23,7 +23,7 @@
         <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-white">
             <div class="container">
                 <a class="navbar-brand ts-push-down__50 position-absolute ts-bottom__0 bg-white pb-0 ts-z-index__1 ts-scroll" href="#page-top">
-                    <img src="assets/img/logo.png" alt="">
+                    <img src="assets/img/logo.png" alt="" >
                 </a>
                 <!--end navbar-brand-->
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -33,7 +33,6 @@
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav d-block d-lg-flex ml-auto text-right">
                         <a class="nav-item nav-link active ts-scroll" href="#page-top">Home <span class="sr-only">(current)</span></a>
-                        <a class="nav-item nav-link ts-scroll" href="#my-services">Services</a>
                         <a class="nav-item nav-link ts-scroll" href="#about-me">About Me</a>
                         <a class="nav-item nav-link ts-scroll" href="#my-skills">Skills</a>
                         <a class="nav-item nav-link ts-scroll" href="#portfolio">Portfolio</a>
@@ -106,7 +105,7 @@
 
             <!--HERO BACKGROUND *************************************************************************************-->
             <div class="ts-background">
-                <div class="ts-background-image" data-bg-image="assets/img/bg-adzi2.jpg"></div>
+                <div class="ts-background-image" data-bg-image="assets/img/bg-adzi2.jpg" loading="lazy"></div>
             </div>
             <!--END HERO BACKGROUND *********************************************************************************-->
 
@@ -127,7 +126,7 @@
                     <!--end ts-title-->
                     <div class="row ts-align__vertical">
                         <div class="col-md-6">
-                            <img src="assets/img/adzi2.jpg" alt="" class="mw-100 mb-5">
+                            <img src="assets/img/adzi2.jpg" alt="" class="mw-100 mb-5" loading="lazy">
                         </div>
                         <div class="col-md-6">
                             <h4 class="ts-bubble-border">Hallo</h4>
@@ -208,7 +207,19 @@
                         <!--end col-md-6-->
                         <div class="col-md-6">
                             <div class="progress" data-progress-width="90%">
-                                <h5 class="ts-progress-title">Webdesign</h5>
+                                <h5 class="ts-progress-title">HTML, CSS & JS</h5>
+                                <figure class="ts-progress-value"></figure>
+                                <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                             <!--end progress-->
+                             <div class="progress" data-progress-width="80%">
+                                <h5 class="ts-progress-title">React Js</h5>
+                                <figure class="ts-progress-value"></figure>
+                                <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <!--end progress-->
+                            <div class="progress" data-progress-width="75%">
+                                <h5 class="ts-progress-title">Vue Js</h5>
                                 <figure class="ts-progress-value"></figure>
                                 <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
@@ -231,18 +242,7 @@
                                 <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                             <!--end progress-->
-                            <div class="progress" data-progress-width="85%">
-                                <h5 class="ts-progress-title">Photo Editing</h5>
-                                <figure class="ts-progress-value"></figure>
-                                <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                            <!--end progress-->
-                            <div class="progress" data-progress-width="80%">
-                                <h5 class="ts-progress-title">Video Editing</h5>
-                                <figure class="ts-progress-value"></figure>
-                                <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                            <!--end progress-->
+                           
                         </div>
                         <!--end col-md-6-->
                     </div>
@@ -263,7 +263,113 @@
                                 <h6 class="ts-opacity__50">Frontend Project</h6>
                                 <h4>Company Profile Web Aksi Pangan Sejahtera</h4>
                             </div>
-                            <img src="assets/img/porto/aps.png" class="card-img" alt="">
+                            <img src="assets/img/porto/aps.png" class="card-img" alt="" loading="lazy">
+                            <!--end ts-gallery__image-->
+                        </a>
+                        <a href="assets/img/porto/dairycious.png" class="card ts-gallery__item popup-image" data-animate="ts-fadeInUp">
+                            <div class="ts-gallery__item-description">
+                                <h6 class="ts-opacity__50">Frontend Project</h6>
+                                <h4>Landing Page Dairycious Yogurt</h4>
+                            </div>
+                            <img src="assets/img/porto/dairycious.png" class="card-img" alt="" loading="lazy">
+                            <!--end ts-gallery__image-->
+                        </a>
+                        <a href="assets/img/porto/derma.png" class="card ts-gallery__item popup-image" data-animate="ts-fadeInUp">
+                            <div class="ts-gallery__item-description">
+                                <h6 class="ts-opacity__50">Frontend Project</h6>
+                                <h4>Web Company Profile Derma Express</h4>
+                            </div>
+                            <img src="assets/img/porto/derma.png" class="card-img" alt="" loading="lazy">
+                            <!--end ts-gallery__image-->
+                        </a>
+                        <!--end card ts-gallery__item-->
+                        <a href="assets/img/porto/finpo.png" class="card ts-gallery__item popup-image" data-animate="ts-fadeInUp">
+                            <div class="ts-gallery__item-description">
+                                <h6 class="ts-opacity__50">Frontend Project</h6>
+                                <h4>Landing Page Finpos.id</h4>
+                            </div>
+                            <img src="assets/img/porto/finpo.png" class="card-img" alt="" loading="lazy">
+                            <!--end ts-gallery__image-->
+                        </a>
+                        <!--end card ts-gallery__item-->
+                        <a href="assets/img/porto/invitote.png" class="card ts-gallery__item popup-image" data-animate="ts-fadeInUp">
+                            <div class="ts-gallery__item-description">
+                                <h6 class="ts-opacity__50">Frontend Project</h6>
+                                <h4>Landing Page Invitote.id</h4>
+                            </div>
+                            <img src="assets/img/porto/invitote.png" class="card-img" alt="" loading="lazy">
+                            <!--end ts-gallery__image-->
+                        </a>
+                        <!--end card ts-gallery__item-->
+                        <a href="assets/img/porto/lima.png" class="card ts-gallery__item popup-image" data-animate="ts-fadeInUp">
+                            <div class="ts-gallery__item-description">
+                                <h6 class="ts-opacity__50">Frontend Project</h6>
+                                <h4>Web Crowdfunding LIMA</h4>
+                            </div>
+                            <img src="assets/img/porto/lima.png" class="card-img" alt="" loading="lazy">
+                            <!--end ts-gallery__image-->
+                        </a>
+                        <!--end card ts-gallery__item-->
+                        <a href="assets/img/porto/mizan.png" class="card ts-gallery__item popup-image" data-animate="ts-fadeInUp">
+                            <div class="ts-gallery__item-description">
+                                <h6 class="ts-opacity__50">Frontend Project</h6>
+                                <h4>Web Crowdfunding Mizan Amanah</h4>
+                            </div>
+                            <img src="assets/img/porto/mizan.png" class="card-img" alt="" loading="lazy">
+                            <!--end ts-gallery__image-->
+                        </a>
+                        <!--end card ts-gallery__item-->
+                        <a href="assets/img/porto/ngo.png" class="card ts-gallery__item popup-image" data-animate="ts-fadeInUp">
+                            <div class="ts-gallery__item-description">
+                                <h6 class="ts-opacity__50">Frontend Project</h6>
+                                <h4>Landing Page NGO360.id</h4>
+                            </div>
+                            <img src="assets/img/porto/ngo.png" class="card-img" alt="" loading="lazy">
+                            <!--end ts-gallery__image-->
+                        </a>
+                        <!--end card ts-gallery__item-->
+                        <a href="assets/img/porto/nikahimpian.png" class="card ts-gallery__item popup-image" data-animate="ts-fadeInUp">
+                            <div class="ts-gallery__item-description">
+                                <h6 class="ts-opacity__50">Frontend Project</h6>
+                                <h4>Landing Page NikahImpian.com</h4>
+                            </div>
+                            <img src="assets/img/porto/nikahimpian.png" class="card-img" alt="" loading="lazy">
+                            <!--end ts-gallery__image-->
+                        </a>
+                        <!--end card ts-gallery__item-->
+                        <a href="assets/img/porto/pjb.png" class="card ts-gallery__item popup-image" data-animate="ts-fadeInUp">
+                            <div class="ts-gallery__item-description">
+                                <h6 class="ts-opacity__50">Frontend Project</h6>
+                                <h4>Web Apps Keuangan PJB</h4>
+                            </div>
+                            <img src="assets/img/porto/pjb.png" class="card-img" alt="" loading="lazy">
+                            <!--end ts-gallery__image-->
+                        </a>
+                        <!--end card ts-gallery__item-->
+                        <a href="assets/img/porto/signage.png" class="card ts-gallery__item popup-image" data-animate="ts-fadeInUp">
+                            <div class="ts-gallery__item-description">
+                                <h6 class="ts-opacity__50">Frontend Project</h6>
+                                <h4>Web Apps Management Advertising Digital Signage</h4>
+                            </div>
+                            <img src="assets/img/porto/signage.png" class="card-img" alt="" loading="lazy">
+                            <!--end ts-gallery__image-->
+                        </a>
+                        <!--end card ts-gallery__item-->
+                        <a href="assets/img/porto/tefa-smkn2.png" class="card ts-gallery__item popup-image" data-animate="ts-fadeInUp">
+                            <div class="ts-gallery__item-description">
+                                <h6 class="ts-opacity__50">Frontend Project</h6>
+                                <h4>Web Teaching Factory SMKN 2 CIMAHI</h4>
+                            </div>
+                            <img src="assets/img/porto/tefa-smkn2.png" class="card-img" alt="" loading="lazy">
+                            <!--end ts-gallery__image-->
+                        </a>
+                        <!--end card ts-gallery__item-->
+                        <a href="assets/img/porto/ulaz.png" class="card ts-gallery__item popup-image" data-animate="ts-fadeInUp">
+                            <div class="ts-gallery__item-description">
+                                <h6 class="ts-opacity__50">Frontend Project</h6>
+                                <h4>Web Crowdfunding Ulul Azmi</h4>
+                            </div>
+                            <img src="assets/img/porto/ulaz.png" class="card-img" alt="" loading="lazy">
                             <!--end ts-gallery__image-->
                         </a>
                         <!--end card ts-gallery__item-->
@@ -272,7 +378,7 @@
                                 <h6 class="ts-opacity__50">Branding</h6>
                                 <h4>ID Card Bara Enterprise</h4>
                             </div>
-                            <img src="assets/img/desain 2 front.png" class="card-img" alt="">
+                            <img src="assets/img/desain 2 front.png" class="card-img" alt="" loading="lazy">
                             <!--end ts-gallery__image-->
                         </a>
                         <!--end card ts-gallery__item-->
@@ -282,7 +388,7 @@
                                     <h6 class="ts-opacity__50">Branding</h6>
                                     <h4>ID Card Bara Enterprise</h4>
                                 </div>
-                                <img src="assets/img/desain 2.png" class="card-img" alt="">
+                                <img src="assets/img/desain 2.png" class="card-img" alt="" loading="lazy">
                                 <!--end ts-gallery__item-description-->
                             </div>
                             <!--end ts-gallery__image-->
@@ -290,7 +396,7 @@
                         <!--end card ts-gallery__item-->
                         <a href="assets/img/saira red.jpg" class="card ts-gallery__item popup-image" data-animate="ts-fadeInUp">
                             <div class="ts-gallery__image">
-                                <img src="assets/img/saira red.jpg" class="card-img" alt="">
+                                <img src="assets/img/saira red.jpg" class="card-img" alt="" loading="lazy">
                                 <div class="ts-gallery__item-description">
                                     <h6 class="ts-opacity__50">Packaging</h6>
                                     <h4>Kemasan Air Mizan Amanah</h4>
@@ -302,7 +408,7 @@
                         <!--end card ts-gallery__item-->
                         <a href="assets/img/naviglow1.jpg" class="card ts-gallery__item popup-image" data-animate="ts-fadeInUp">
                             <div class="ts-gallery__image">
-                                <img src="assets/img/naviglow1.jpg" class="card-img" alt="">
+                                <img src="assets/img/naviglow1.jpg" class="card-img" alt="" loading="lazy">
                                 <div class="ts-gallery__item-description">
                                     <h6 class="ts-opacity__50">Product Photography</h6>
                                     <h4>Naviglow</h4>
@@ -314,7 +420,7 @@
                         <!--end card ts-gallery__item-->
                         <a href="assets/img/naviglow2.jpg" class="card ts-gallery__item popup-image" data-animate="ts-fadeInUp">
                             <div class="ts-gallery__image">
-                                <img src="assets/img/naviglow2.jpg" class="card-img" alt="">
+                                <img src="assets/img/naviglow2.jpg" class="card-img" alt="" loading="lazy">
                                 <div class="ts-gallery__item-description">
                                     <h6 class="ts-opacity__50">Product Photography</h6>
                                     <h4>Naviglow</h4>
@@ -326,7 +432,7 @@
                         <!--end card ts-gallery__item-->
                         <a href="assets/img/naviglow3.jpg" class="card ts-gallery__item popup-image" data-animate="ts-fadeInUp">
                             <div class="ts-gallery__image">
-                                <img src="assets/img/naviglow3.jpg" class="card-img" alt="">
+                                <img src="assets/img/naviglow3.jpg" class="card-img" alt="" loading="lazy">
                                 <div class="ts-gallery__item-description">
                                     <h6 class="ts-opacity__50">Product Photography</h6>
                                     <h4>Naviglow</h4>
@@ -340,7 +446,7 @@
                         <!--end card ts-gallery__item-->
                         <a href="assets/img/wendi1.jpg" class="card ts-gallery__item popup-image" data-animate="ts-fadeInUp">
                             <div class="ts-gallery__image">
-                                <img src="assets/img/wendi1.jpg" class="card-img" alt="">
+                                <img src="assets/img/wendi1.jpg" class="card-img" alt="" loading="lazy">
                                 <div class="ts-gallery__item-description">
                                     <h6 class="ts-opacity__50">Wedding Photography</h6>
                                     <h4>Wendi & Anisa</h4>
@@ -351,7 +457,7 @@
                         </a>
                         <a href="assets/img/wendi2.jpg" class="card ts-gallery__item popup-image" data-animate="ts-fadeInUp">
                             <div class="ts-gallery__image">
-                                <img src="assets/img/wendi2.jpg" class="card-img" alt="">
+                                <img src="assets/img/wendi2.jpg" class="card-img" alt="" loading="lazy">
                                 <div class="ts-gallery__item-description">
                                     <h6 class="ts-opacity__50">Wedding Photography</h6>
                                     <h4>Wendi & Anisa</h4>
@@ -363,7 +469,7 @@
 
                         <a href="assets/img/wendi3.jpg" class="card ts-gallery__item popup-image" data-animate="ts-fadeInUp">
                             <div class="ts-gallery__image">
-                                <img src="assets/img/wendi3.jpg" class="card-img" alt="">
+                                <img src="assets/img/wendi3.jpg" class="card-img" alt="" loading="lazy">
                                 <div class="ts-gallery__item-description">
                                     <h6 class="ts-opacity__50">Wedding Photography</h6>
                                     <h4>Wendi & Anisa</h4>
@@ -375,7 +481,7 @@
 
                         <a href="assets/img/abada1.jpg" class="card ts-gallery__item popup-image" data-animate="ts-fadeInUp">
                             <div class="ts-gallery__image">
-                                <img src="assets/img/abada1.jpg" class="card-img" alt="">
+                                <img src="assets/img/abada1.jpg" class="card-img" alt="" loading="lazy">
                                 <div class="ts-gallery__item-description">
                                     <h6 class="ts-opacity__50">Product Photography</h6>
                                     <h4>Abada Aqiqah</h4>
@@ -387,7 +493,7 @@
                         <!--end card ts-gallery__item-->
                         <a href="assets/img/abada2.jpg" class="card ts-gallery__item popup-image" data-animate="ts-fadeInUp">
                             <div class="ts-gallery__image">
-                                <img src="assets/img/abada2.jpg" class="card-img" alt="">
+                                <img src="assets/img/abada2.jpg" class="card-img" alt="" loading="lazy">
                                 <div class="ts-gallery__item-description">
                                     <h6 class="ts-opacity__50">Product Photography</h6>
                                     <h4>Abada Aqiqah</h4>
@@ -400,7 +506,7 @@
 
                         <a href="assets/img/fadil1.jpg" class="card ts-gallery__item popup-image" data-animate="ts-fadeInUp">
                             <div class="ts-gallery__image">
-                                <img src="assets/img/fadil1.jpg" class="card-img" alt="">
+                                <img src="assets/img/fadil1.jpg" class="card-img" alt="" loading="lazy">
                                 <div class="ts-gallery__item-description">
                                     <h6 class="ts-opacity__50">Pre-Wedding Photography</h6>
                                     <h4>Fadhil & Putri</h4>
@@ -411,7 +517,7 @@
                         </a>
                         <a href="assets/img/fadil2.jpg" class="card ts-gallery__item popup-image" data-animate="ts-fadeInUp">
                             <div class="ts-gallery__image">
-                                <img src="assets/img/fadil2.jpg" class="card-img" alt="">
+                                <img src="assets/img/fadil2.jpg" class="card-img" alt="" loading="lazy">
                                 <div class="ts-gallery__item-description">
                                     <h6 class="ts-opacity__50">Pre-Wedding Photography</h6>
                                     <h4>Fadhil & Putri</h4>
@@ -422,7 +528,7 @@
                         </a>
                         <a href="assets/img/fadil3.jpg" class="card ts-gallery__item popup-image" data-animate="ts-fadeInUp">
                             <div class="ts-gallery__image">
-                                <img src="assets/img/fadil3.jpg" class="card-img" alt="">
+                                <img src="assets/img/fadil3.jpg" class="card-img" alt="" loading="lazy">
                                 <div class="ts-gallery__item-description">
                                     <h6 class="ts-opacity__50">Pre-Wedding Photography</h6>
                                     <h4>Fadhil & Putri</h4>
@@ -433,7 +539,7 @@
                         </a>
                         <a href="assets/img/Logo1-porto.png" class="card ts-gallery__item popup-image" data-animate="ts-fadeInUp">
                             <div class="ts-gallery__image">
-                                <img src="assets/img/Logo1-porto.png" class="card-img" alt="">
+                                <img src="assets/img/Logo1-porto.png" class="card-img" alt="" loading="lazy">
                                 <div class="ts-gallery__item-description">
                                     <h6 class="ts-opacity__50">Logo</h6>
                                     <h4>Bara Enterprise</h4>
@@ -444,7 +550,7 @@
                         </a>
                         <a href="assets/img/Logo2-porto.png" class="card ts-gallery__item popup-image" data-animate="ts-fadeInUp">
                             <div class="ts-gallery__image">
-                                <img src="assets/img/Logo2-porto.png" class="card-img" alt="">
+                                <img src="assets/img/Logo2-porto.png" class="card-img" alt="" loading="lazy">
                                 <div class="ts-gallery__item-description">
                                     <h6 class="ts-opacity__50">Logo</h6>
                                     <h4>Dairycious</h4>
@@ -455,7 +561,7 @@
                         </a>
                         <a href="assets/img/Logo3-porto.png" class="card ts-gallery__item popup-image" data-animate="ts-fadeInUp">
                             <div class="ts-gallery__image">
-                                <img src="assets/img/Logo3-porto.png" class="card-img" alt="">
+                                <img src="assets/img/Logo3-porto.png" class="card-img" alt="" loading="lazy">
                                 <div class="ts-gallery__item-description">
                                     <h6 class="ts-opacity__50">Logo</h6>
                                     <h4>Finpos</h4>
@@ -466,7 +572,7 @@
                         </a>
                         <a href="assets/img/Logo4-porto.png" class="card ts-gallery__item popup-image" data-animate="ts-fadeInUp">
                             <div class="ts-gallery__image">
-                                <img src="assets/img/Logo4-porto.png" class="card-img" alt="">
+                                <img src="assets/img/Logo4-porto.png" class="card-img" alt="" loading="lazy">
                                 <div class="ts-gallery__item-description">
                                     <h6 class="ts-opacity__50">Logo</h6>
                                     <h4>Finpos</h4>
@@ -477,7 +583,7 @@
                         </a>
                         <a href="assets/img/Logo5-porto.png" class="card ts-gallery__item popup-image" data-animate="ts-fadeInUp">
                             <div class="ts-gallery__image">
-                                <img src="assets/img/Logo5-porto.png" class="card-img" alt="">
+                                <img src="assets/img/Logo5-porto.png" class="card-img" alt="" loading="lazy">
                                 <div class="ts-gallery__item-description">
                                     <h6 class="ts-opacity__50">Logo</h6>
                                     <h4>NGO360</h4>
@@ -488,7 +594,7 @@
                         </a>
                         <a href="assets/img/Logo6-porto.png" class="card ts-gallery__item popup-image" data-animate="ts-fadeInUp">
                             <div class="ts-gallery__image">
-                                <img src="assets/img/Logo6-porto.png" class="card-img" alt="">
+                                <img src="assets/img/Logo6-porto.png" class="card-img" alt="" loading="lazy">
                                 <div class="ts-gallery__item-description">
                                     <h6 class="ts-opacity__50">Logo</h6>
                                     <h4>Teman Peduli</h4>
@@ -500,7 +606,7 @@
                         <!--end card ts-gallery__item-->
                         <a href="assets/img/feeds1-porto.png" class="card ts-gallery__item popup-image" data-animate="ts-fadeInUp">
                             <div class="ts-gallery__image">
-                                <img src="assets/img/feeds1-porto.png" class="card-img" alt="">
+                                <img src="assets/img/feeds1-porto.png" class="card-img" alt="" loading="lazy">
                                 <div class="ts-gallery__item-description">
                                     <h6 class="ts-opacity__50">Feeds Instagram</h6>
                                     <h4>Teman Peduli</h4>
@@ -512,7 +618,7 @@
                         <!--end card ts-gallery__item-->
                         <a href="assets/img/feeds2-porto.png" class="card ts-gallery__item popup-image" data-animate="ts-fadeInUp">
                             <div class="ts-gallery__image">
-                                <img src="assets/img/feeds2-porto.png" class="card-img" alt="">
+                                <img src="assets/img/feeds2-porto.png" class="card-img" alt="" loading="lazy">
                                 <div class="ts-gallery__item-description">
                                     <h6 class="ts-opacity__50">Feeds Instagram</h6>
                                     <h4>Onestoppolos</h4>
@@ -524,7 +630,7 @@
                         <!--end card ts-gallery__item-->
                         <a href="assets/img/feeds3-porto.png" class="card ts-gallery__item popup-image" data-animate="ts-fadeInUp">
                             <div class="ts-gallery__image">
-                                <img src="assets/img/feeds3-porto.png" class="card-img" alt="">
+                                <img src="assets/img/feeds3-porto.png" class="card-img" alt="" loading="lazy">
                                 <div class="ts-gallery__item-description">
                                     <h6 class="ts-opacity__50">Feeds Instagram</h6>
                                     <h4>Dairycious</h4>
@@ -536,7 +642,7 @@
                         <!--end card ts-gallery__item-->
                         <a href="assets/img/feeds4-porto.png" class="card ts-gallery__item popup-image" data-animate="ts-fadeInUp">
                             <div class="ts-gallery__image">
-                                <img src="assets/img/feeds4-porto.png" class="card-img" alt="">
+                                <img src="assets/img/feeds4-porto.png" class="card-img" alt="" loading="lazy">
                                 <div class="ts-gallery__item-description">
                                     <h6 class="ts-opacity__50">Feeds Instagram</h6>
                                     <h4>Bara Enterprise</h4>
@@ -548,7 +654,7 @@
                         <!--end card ts-gallery__item-->
                         <a href="assets/img/feeds5-porto.png" class="card ts-gallery__item popup-image" data-animate="ts-fadeInUp">
                             <div class="ts-gallery__image">
-                                <img src="assets/img/feeds5-porto.png" class="card-img" alt="">
+                                <img src="assets/img/feeds5-porto.png" class="card-img" alt="" loading="lazy">
                                 <div class="ts-gallery__item-description">
                                     <h6 class="ts-opacity__50">Feeds Instagram</h6>
                                     <h4>Kbigsize</h4>
@@ -561,7 +667,7 @@
 
                         <a href="assets/img/feeds6-porto.png" class="card ts-gallery__item popup-image" data-animate="ts-fadeInUp">
                             <div class="ts-gallery__image">
-                                <img src="assets/img/feeds6-porto.png" class="card-img" alt="">
+                                <img src="assets/img/feeds6-porto.png" class="card-img" alt="" loading="lazy">
                                 <div class="ts-gallery__item-description">
                                     <h6 class="ts-opacity__50">Feeds Instagram</h6>
                                     <h4>Mizan Amanah</h4>
@@ -574,7 +680,7 @@
 
                         <a href="assets/img/feeds7-porto.png" class="card ts-gallery__item popup-image" data-animate="ts-fadeInUp">
                             <div class="ts-gallery__image">
-                                <img src="assets/img/feeds7-porto.png" class="card-img" alt="">
+                                <img src="assets/img/feeds7-porto.png" class="card-img" alt="" loading="lazy">
                                 <div class="ts-gallery__item-description">
                                     <h6 class="ts-opacity__50">Feeds Instagram</h6>
                                     <h4>Wakaf Mizan Amanah</h4>
